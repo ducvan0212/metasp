@@ -1,4 +1,4 @@
-% usage: clingo whois.lp test_4.lp as_test_4.lp
+% usage: clingo whois.lp test_4.lp test_4_as.lp
 
 head(H) :- atom_tuple(H, A), as(A).
 
