@@ -1,6 +1,6 @@
-% {a}.
-% {b; d} :- a.
-% c :- a,b.
+%{a}.
+%{b; d} :- a.
+%c :- a,b.
 
  atom_tuple(0).
  atom_tuple(0,1).
