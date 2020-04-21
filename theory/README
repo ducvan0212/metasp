@@ -1,1 +1,3 @@
 clingo dl.lp fsE.lp fsI.lp 0
+
+clingo dl.lp simple.txt

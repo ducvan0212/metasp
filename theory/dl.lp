@@ -102,6 +102,8 @@ def main(prg):
         print("\n adj_matrix: ", adj_matrix)
 
         # what if train t1 start at station a at least at 5
+        print("\nwhat if train t1 start at station a at least at 5?")
+        print("change graph by adj_matrix['0']['(t1,a)'] = -5")
         adj_matrix['0']['(t1,a)'] = -5
         dist = floyd_warshall(adj_matrix)
         neg_dist = relate_negative_cycle(adj_matrix,dist)
