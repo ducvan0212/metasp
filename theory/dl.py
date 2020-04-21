@@ -38,7 +38,10 @@ class Propagator:
     
   def get_assignment(self, thread_id):
     return self.__state(thread_id).get_assignment()
-    
+  
+  def get_graph(self, thread_id):
+    return self.__state(thread_id)  
+  
   def __state(self, thread_id):
     while len(self.__states) <= thread_id:
       self.__states.append(graph.Graph()) 

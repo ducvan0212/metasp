@@ -18,4 +18,4 @@ seq((T,M),(T,M+1),D) :- task(T), duration(T,M,D), machine(M+1).
 seq((T1,M),(T2,M),D) :- permutation(T1,T2), duration(T1,M,D).
 &diff { T1-T2 } <= -D :- seq(T1,T2,D).
 &diff { 0-(T,M) } <= 0 :- duration(T,M,D).
-#show permutation/2.
+%#show permutation/2.
