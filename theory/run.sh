@@ -23,3 +23,5 @@ python add_more_to_new_human.py
 clingo dl_robot.lp robot_simple.lp
 
 clingo dl_human.lp new_human.lp
+
+clingo dl-a.lp minimal_prog.lp

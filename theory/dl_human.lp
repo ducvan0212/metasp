@@ -108,5 +108,44 @@ def main(prg):
                 print("epsilon: ")
                 print("    add: ", take_plus)
                 print("    remove: ", take_minus)
+                
+                diff_epsilon = take_plus + take_minus
+
+                with open('no_diff_defH.lp') as f:
+                    content = f.read()
+                    # print(content)
+                    rules = re.findall(r".+:-.+", content)
+                    facts = re.findall(r"^(?:(?!:-).)+$", content, flags = re.MULTILINE)
+                    # print(rules)
+                    # print(facts)
+
+                wf = open("minimal_prog.lp", "w")
+                for f in facts:
+                    wf.write("{}\n".format(f))
+
+                count = 1
+                for r in rules:
+                    wf.write("{}\n".format(r.replace(".", ", ok(" + str(count) + ").")))
+                    wf.write("{{ ok({}) }}.\n".format(str(count)))
+                    count = count + 1
+
+                with open('diff_defH.lp') as f:
+                    lines = [line.rstrip() for line in f]
+                    lines = lines + take_plus
+
+                    count = 0
+                    for d in lines:
+                        if ":-" in d and d in diff_epsilon:
+                            change_head = re.sub(r".+(?=:)","v{}".format(count),d)
+                            print(change_head)
+                            wf.write("{}\n".format(change_head))
+                            wf.write(":- not v{}.\n".format(count))
+                            count = count + 1
+                        else:
+                            wf.write("{}\n".format(d))
+
+                wf.write("#minimize {X: ok(X)}.\n")
+                wf.close()
+                
                 return
 #end.
