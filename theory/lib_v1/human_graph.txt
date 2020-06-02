@@ -1,0 +1,2 @@
+unsatisfiable
+{"(t1,a)": {"(t1,a)": 0, "(t2,b)": Infinity, "(t1,b)": -20, "(t2,a)": -5, "0": Infinity}, "(t2,b)": {"(t1,a)": Infinity, "(t2,b)": 0, "(t1,b)": Infinity, "(t2,a)": Infinity, "0": 20}, "(t1,b)": {"(t1,a)": Infinity, "(t2,b)": Infinity, "(t1,b)": 0, "(t2,a)": Infinity, "0": 25}, "(t2,a)": {"(t1,a)": Infinity, "(t2,b)": -10, "(t1,b)": Infinity, "(t2,a)": 0, "0": Infinity}, "0": {"(t1,a)": -6, "(t2,b)": Infinity, "(t1,b)": Infinity, "(t2,a)": 0, "0": 0}}

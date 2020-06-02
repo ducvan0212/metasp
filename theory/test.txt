@@ -1,16 +1,22 @@
-a(a).b(b).c(c).d(d).e(e).f(f).g(g).
+% a(a).b(b).c(c).d(d).e(e).f(f).g(g).
+% &diff { 0 - X } <= 0 :- a(X).
+% &diff { 0 - X } <= 0 :- b(X).
+% &diff { 0 - X } <= 0 :- c(X).
+% &diff { 0 - X } <= 0 :- d(X).
+% &diff { 0 - X } <= 0 :- e(X).
+% &diff { 0 - X } <= 0 :- f(X).
+% &diff { 0 - X } <= 0 :- g(X).
+% &diff { X - Y } <= 1 :- a(X), b(Y).
+% &diff { X - Y } <= 1 :- b(X), c(Y).
+% &diff { X - Y } <= 1 :- c(X), d(Y).
+% &diff { X - Y } <= 1 :- d(X), b(Y).
+% &diff { X - Y } <= 1 :- c(X), e(Y).
+% &diff { X - Y } <= 1 :- a(X), f(Y).
+% &diff { X - Y } <= 1 :- f(X), g(Y).
+% &diff { X - Y } <= 1 :- g(X), a(Y).
+
+a(a).a(b).a(c).
 &diff { 0 - X } <= 0 :- a(X).
-&diff { 0 - X } <= 0 :- b(X).
-&diff { 0 - X } <= 0 :- c(X).
-&diff { 0 - X } <= 0 :- d(X).
-&diff { 0 - X } <= 0 :- e(X).
-&diff { 0 - X } <= 0 :- f(X).
-&diff { 0 - X } <= 0 :- g(X).
-&diff { X - Y } <= 1 :- a(X), b(Y).
-&diff { X - Y } <= 1 :- b(X), c(Y).
-&diff { X - Y } <= 1 :- c(X), d(Y).
-&diff { X - Y } <= 1 :- d(X), b(Y).
-&diff { X - Y } <= 1 :- c(X), e(Y).
-&diff { X - Y } <= 1 :- a(X), f(Y).
-&diff { X - Y } <= 1 :- f(X), g(Y).
-&diff { X - Y } <= 1 :- g(X), a(Y).
+&diff { a - b } <= 1.
+&diff { b - c } <= 1.
+&diff { c - a } <= -3.
