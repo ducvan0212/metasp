@@ -233,3 +233,6 @@ done < head_lambda.lp
 cp potential_minus.lp.bak potential_minus.lp
 cp potential_plus.lp.bak potential_plus.lp
 
+echo "Done!\n"
+echo "Result in select_plus.lp, select_minus.lp, epsilon_plus.lp and epsilon_minus.lp"
+
