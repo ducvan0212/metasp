@@ -109,8 +109,6 @@ def main(prg):
                 print("    add: ", take_plus)
                 print("    remove: ", take_minus)
                 
-                diff_epsilon = take_plus + take_minus
-
                 with open('no_diff_defH.lp') as f:
                     content = f.read()
                     # print(content)
@@ -123,10 +121,10 @@ def main(prg):
                 for f in facts:
                     wf.write("{}\n".format(f))
 
-                count = 1
+                count = 0
                 for r in rules:
-                    wf.write("{}\n".format(r.replace(".", ", ok(" + str(count) + ").")))
-                    wf.write("{{ ok({}) }}.\n".format(str(count)))
+                    wf.write("{}\n".format(r.replace(".", ", remove(" + str(count) + ").")))
+                    wf.write("{{ remove({}) }}.\n".format(str(count)))
                     count = count + 1
 
                 with open('diff_defH.lp') as f:
@@ -135,16 +133,18 @@ def main(prg):
 
                     count = 0
                     for d in lines:
-                        if ":-" in d and d in diff_epsilon:
-                            change_head = re.sub(r".+(?=:)","v{}".format(count),d)
+                        if ":-" in d and d in take_minus:
+                            change_head = re.sub(r".+(?=:)","r{}".format(count),d)
                             print(change_head)
                             wf.write("{}\n".format(change_head))
-                            wf.write(":- not v{}.\n".format(count))
+                            wf.write(":- not r{}.\n".format(count))
                             count = count + 1
+                        #elif d in take_plus:
+
                         else:
                             wf.write("{}\n".format(d))
 
-                wf.write("#minimize {X: ok(X)}.\n")
+                wf.write("#minimize {1,X: remove(X)}.\n")
                 wf.close()
                 
                 return

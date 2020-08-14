@@ -1,6 +1,6 @@
 #include "encoding/convert.lp".
 #include "encoding/preprocessing.lp".
-#include "encoding/encoding.lp".
+#include "encoding/encoding_human.lp".
 
 #include "encoding/delay_linear.lp".
 #include "encoding/minimize_delay.lp".

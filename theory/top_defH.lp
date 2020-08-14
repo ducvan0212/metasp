@@ -5,11 +5,3 @@
 &diff{((t2,b)-0)}<=(20).
 &diff{(0-(t1,a))}<=((-6)):-start(6).
 &diff{(0-(t2,a))}<=(0).
-:-train(t1).
-rush_hour(8).
-start(6):-rush_hour(8).
-station(a).
-station(b).
-train(t1).
-train(t2).
-{a}.
