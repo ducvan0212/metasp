@@ -1,1 +1,1 @@
-train(t1). train(t2). remove_constraint(1). rush_hour(8). station(a). station(b). ok(3). start(6).
+train(t1). train(t2). remove_constraint(1). station(a). station(b). dl((t2,a),5). dl((t1,a),0). dl((t2,b),15). dl((t1,b),20). ok(3). ok(4). ok(5). ok(6). ok(7). ok(8). ok(9). ok(10). ok(11). remove_rule(2).

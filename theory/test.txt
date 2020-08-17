@@ -135,43 +135,27 @@
 % % Display 
 % #show move/3.
 
-% &diff{a-0} <= 2 :- ok(1). {ok(1)}.
-% &diff{0-a} <= -2 :- ok(2). {ok(2)}.
-% :- not &diff{a-0} <= 1.
-% :- not &diff{0-a} <= -1.
-% #maximize {X: ok(X)}.
+% &diff{a-0} <= 5 :- ok(1). {ok(1)}.
+% &diff{a-b} <= 2 :- ok(2). {ok(2)}.
+% :- not &diff{b-0} <= 3.
+% :- not &diff{0-b} <= -3.
+% #minimize {X: ok(X)}.
 
 
 % planning with durative action
 %  planning with actions with duration 
 % numerical planning
 
-% &diff{a-0}<=6.
-% &diff{b-a}<=2.
-% &diff{b-0}<=5.
-% &diff{0-b}<= -5.
+&diff{a-0}<=3 :- ok(1). 
+{ ok(1) }.
+&diff{0-a}<= -3 :- ok(2). 
+{ ok(2) }.
+&diff{a-c}<=1 :- ok(3). 
+{ ok(3) }.
+&diff{b-0}<=4 :- ok(4). 
+{ ok(4) }.
+&diff{c-0} <= 2.
+&diff{0-c} <= -2.
+#minimize{ X: ok(X) }.
 
-% ok(1):- llll,a.
-% ok(2):- &diff{b-a}<=2.
-% ok(3):- &diff{b-0}<=5.
-% ok(4):- &diff{0-b}<= -5.
-% &diff{a-0}<=1.
-% &diff{0-a}<= -1.
-% &diff{b-0}<=5.
-% &diff{0-b}<= -5.
-
-&diff{ (t1,a) - 0 } <= 0.
-&diff{ 0 - (t1,a) } <= -0.
-&diff{ (t2,a) - 0 } <= 5.
-&diff{ 0 - (t2,a) } <= -5.
-&diff{ (t2,b) - 0 } <= 15.
-&diff{ 0 - (t2,b) } <= -15.
-&diff{ (t1,b) - 0 } <= 20.
-&diff{ 0 - (t1,b) } <= -20.
-
-&diff{(0-(t2,a))}<=(0).
-&diff{((t1,a)-(t1,b))}<=((-20)).
-&diff{((t1,b)-0)}<=(25).
-&diff{((t2,a)-(t2,b))}<=((-10)).
-&diff{((t2,b)-0)}<=(20).
-
+%&diff{a-0}<=3. &diff{a-c}<=1. &diff{b-0}<=4. &diff{0-a}<= -3.

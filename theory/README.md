@@ -1,5 +1,3 @@
-## README
-
 ### Approach 1:
 
 ```
