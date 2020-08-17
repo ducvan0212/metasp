@@ -187,8 +187,8 @@ awk -v sr="$ep_minus_id" '{
 echo "Done!"
 echo "Result in epsilon_plus.lp and epsilon_minus.lp"
 echo "For the following program:
-:- not &diff{b-0}<=5.
-:- not &diff{0-b}<= -5.
+&diff{b-0}<=5.
+&diff{0-b}<= -5.
 a :- &diff{b-0} <= 10.
 Answer set: dl(b,5)
 The AS doesn't contain a, so epsilon_plus for ASP will be potential_plus"
