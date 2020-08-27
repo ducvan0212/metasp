@@ -1,0 +1,7 @@
+select a potential_minus: &diff{((12,3)-(12,14))}<=((-13)).
+Found set of rules in top that satisfy query
+==========
+Done!\n
+Result in select_plus.lp, select_minus.lp, epsilon_plus.lp and epsilon_minus.lp
+Finishintime
+Execution time was 10 seconds.

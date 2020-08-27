@@ -1,0 +1,10 @@
+seq((1,7),(1,4),6):-executionTime(1,7,6),executionTime(1,4,2),assign(1,7,10),assign(1,4,3),not seq((1,4),(1,7),2).
+seq((1,7),(1,4),6):-executionTime(1,7,6),executionTime(1,4,40),assign(1,7,10),assign(1,4,3),not seq((1,4),(1,7),40).
+seq((1,7),(1,6),6):-executionTime(1,7,6),executionTime(1,6,37),assign(1,7,10),assign(1,6,1),not seq((1,6),(1,7),37).
+seq((1,8),(1,1),19):-executionTime(1,8,19),executionTime(1,1,54),assign(1,8,5),assign(1,1,2),not seq((1,1),(1,8),54).
+seq((1,8),(1,2),19):-executionTime(1,8,19),executionTime(1,2,34),assign(1,8,5),assign(1,2,4),not seq((1,2),(1,8),34).
+seq((1,8),(1,3),19):-executionTime(1,8,19),executionTime(1,3,55),assign(1,8,5),assign(1,3,6),not seq((1,3),(1,8),55).
+seq((1,8),(1,3),19):-executionTime(1,8,19),executionTime(1,3,61),assign(1,8,5),assign(1,3,6),not seq((1,3),(1,8),61).
+seq((1,8),(1,4),19):-executionTime(1,8,19),executionTime(1,4,40),assign(1,8,5),assign(1,4,3),not seq((1,4),(1,8),40).
+seq((1,8),(1,6),19):-executionTime(1,8,19),executionTime(1,6,37),assign(1,8,5),assign(1,6,1),not seq((1,6),(1,8),37).
+seq((1,8),(1,7),19):-executionTime(1,8,19),executionTime(1,7,6),assign(1,8,5),assign(1,7,10),not seq((1,7),(1,8),6).

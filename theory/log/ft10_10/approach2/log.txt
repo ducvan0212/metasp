@@ -1,0 +1,17 @@
+=== Compute gamma
+=== Compute potential
+=== Compute Pi_x
+=== Compute epsilon
+Done!
+Result in epsilon_plus.lp and epsilon_minus.lp
+For the following program:
+&diff{b-0}<=5.
+&diff{0-b}<= -5.
+a :- &diff{b-0} <= 10.
+Answer set: dl(b,5)
+The AS doesn't contain a, so epsilon_plus for ASP will be potential_plus
+Execution time was 2 seconds.
+defH length  3322 defH.lp
+defR length  3353 defR.lp
+defH \ defR  652 potential_minus.lp
+defR \ defH  314 potential_plus.lp

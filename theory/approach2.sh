@@ -18,6 +18,8 @@ clingo I_star.lp --outf=0 -V0 --out-atomf="a(%s)." --quiet=1,2,2 | head -n1 | \
 clingo - compute_I_star_dl.lp --outf=0 -V0 --out-atomf=%s. --quiet=1,2,2 | head -n1 | sed -E 's/\.\ /\.\
 /g' | tr ' ' '\n' > I_star_dl.lp
 
+start=`date +%s`
+
 echo "=== Compute gamma"
 awk '{
 	if (match($0,/#delayed\([0-9]+\)/)) {
@@ -161,7 +163,7 @@ awk '{
 	}
 }' potential_minus.lp >> Pi_x.lp
 
-echo "#minimize{X:add(X)}. #maximize{X:keep(X)}." >> Pi_x.lp
+echo "#maximize{X:add(X)}. #maximize{X:keep(X)}." >> Pi_x.lp
 
 echo "=== Compute epsilon"
 clingo-dl Pi_x.lp human_unchanged.lp --outf=0 -V0 --out-atomf=%s. --quiet=1,2,2 | head -n1 > I_x.lp
@@ -192,3 +194,10 @@ echo "For the following program:
 a :- &diff{b-0} <= 10.
 Answer set: dl(b,5)
 The AS doesn't contain a, so epsilon_plus for ASP will be potential_plus"
+end=`date +%s`
+echo Execution time was `expr $end - $start` seconds.
+
+echo "defH length " "$(wc -l defH.lp)"
+echo "defR length " "$(wc -l defR.lp)"
+echo "defH \ defR " "$(wc -l potential_minus.lp)"
+echo "defR \ defH " "$(wc -l potential_plus.lp)"

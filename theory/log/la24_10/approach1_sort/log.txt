@@ -1,0 +1,2015 @@
+select a potential_minus: &diff{((9,9)-(9,7))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,9)-(9,6))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,9)-(9,2))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((9,5)-(1,6))}<=((-47)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,9)-(15,9))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((9,4)-(8,8))}<=((-25)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,9)-(14,5))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,9)-(13,3))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,9)-(12,2))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((9,4)-(10,9))}<=((-25)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,9)-(11,4))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((9,2)-(5,3))}<=((-39)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,9)-(10,3))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,9)-(1,1))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,8)-(9,9))}<=((-21)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,8)-(9,7))}<=((-21)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,8)-(9,6))}<=((-21)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((8,9)-(8,8))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((8,9)-(5,3))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,8)-(9,5))}<=((-21)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,8)-(9,4))}<=((-21)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,8)-(9,3))}<=((-21)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((8,8)-(8,7))}<=((-9)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,8)-(9,2))}<=((-21)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,8)-(9,1))}<=((-21)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,8)-(8,1))}<=((-21)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,8)-(6,6))}<=((-21)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((8,8)-(8,6))}<=((-9)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((8,8)-(8,4))}<=((-9)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,8)-(4,3))}<=((-21)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((8,8)-(8,3))}<=((-9)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,8)-(3,8))}<=((-21)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((8,8)-(2,6))}<=((-9)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((8,8)-(15,2))}<=((-9)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,8)-(2,9))}<=((-21)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((8,8)-(14,4))}<=((-9)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((8,8)-(13,9))}<=((-9)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((8,8)-(11,7))}<=((-9)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((8,8)-(10,9))}<=((-9)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,8)-(15,7))}<=((-21)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((8,5)-(8,8))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,8)-(14,1))}<=((-21)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,8)-(12,1))}<=((-21)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,8)-(11,9))}<=((-21)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,8)-(10,5))}<=((-21)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((8,3)-(1,6))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((8,2)-(8,8))}<=((-90)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,8)-(1,5))}<=((-21)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,7)-(10,1))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,6)-(9,7))}<=((-52)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((8,1)-(8,8))}<=((-62)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,7)-(5,3))}<=((-50)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,6)-(9,2))}<=((-52)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(9,4))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(8,8))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,6)-(6,3))}<=((-52)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,6)-(2,2))}<=((-52)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,6)-(13,5))}<=((-52)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,6)-(10,4))}<=((-52)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(7,9))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,5)-(9,9))}<=((-47)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(7,8))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(7,7))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,5)-(9,7))}<=((-47)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(7,5))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(7,4))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(7,3))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,5)-(9,6))}<=((-47)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(7,2))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,5)-(9,4))}<=((-47)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,5)-(9,3))}<=((-47)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(7,1))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,5)-(9,2))}<=((-47)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(6,8))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(5,7))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,5)-(9,1))}<=((-47)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,5)-(5,5))}<=((-47)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(4,1))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(3,1))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(2,6))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,5)-(4,6))}<=((-47)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,5)-(3,4))}<=((-47)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,5)-(2,1))}<=((-47)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,5)-(15,8))}<=((-47)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(15,2))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,5)-(14,6))}<=((-47)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,5)-(12,7))}<=((-47)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(14,4))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,5)-(11,5))}<=((-47)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,5)-(10,8))}<=((-47)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,5)-(1,3))}<=((-47)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,4)-(9,9))}<=((-25)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,4)-(9,7))}<=((-25)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,4)-(9,6))}<=((-25)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(13,9))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,4)-(9,3))}<=((-25)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(11,7))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(10,9))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,4)-(9,2))}<=((-25)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,4)-(6,8))}<=((-25)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,6)-(1,7))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,4)-(5,7))}<=((-25)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((7,1)-(1,6))}<=((-71)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,4)-(4,1))}<=((-25)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((6,8)-(8,8))}<=((-45)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,4)-(3,1))}<=((-25)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,4)-(2,2))}<=((-25)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,4)-(1,7))}<=((-25)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((6,8)-(10,9))}<=((-45)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((6,7)-(5,3))}<=((-99)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,4)-(1,2))}<=((-25)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((6,5)-(1,6))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,3)-(9,9))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,3)-(9,7))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,3)-(9,6))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,3)-(9,2))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,3)-(15,6))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((5,7)-(8,8))}<=((-12)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((5,7)-(5,3))}<=((-12)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((5,7)-(10,9))}<=((-12)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,3)-(14,7))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,3)-(13,8))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,3)-(11,6))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,3)-(10,6))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,2)-(9,7))}<=((-39)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((5,5)-(5,3))}<=((-70)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,2)-(15,3))}<=((-39)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,2)-(12,9))}<=((-39)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((5,5)-(13,6))}<=((-70)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((5,5)-(1,6))}<=((-70)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,2)-(10,2))}<=((-39)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,1)-(9,9))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((5,3)-(5,9))}<=((-40)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((5,3)-(5,8))}<=((-40)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,1)-(9,7))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((5,3)-(5,6))}<=((-40)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((5,3)-(5,4))}<=((-40)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,1)-(9,6))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((5,3)-(4,8))}<=((-40)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((5,3)-(3,6))}<=((-40)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((5,3)-(2,5))}<=((-40)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,1)-(9,4))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((5,3)-(13,7))}<=((-40)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((5,3)-(1,2))}<=((-40)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,1)-(9,3))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,1)-(9,2))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((5,2)-(5,3))}<=((-34)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((5,2)-(4,7))}<=((-34)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((5,1)-(5,3))}<=((-84)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((4,7)-(8,7))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,1)-(15,4))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,1)-(14,9))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,1)-(13,4))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((4,7)-(7,2))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,1)-(12,4))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((4,7)-(4,9))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,1)-(11,8))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((4,7)-(4,8))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((4,7)-(4,6))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((9,1)-(10,7))}<=((-35)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((4,7)-(4,5))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,9)-(9,2))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((4,7)-(4,4))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((4,7)-(4,2))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((4,7)-(4,1))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,9)-(8,2))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((4,7)-(3,3))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,9)-(8,1))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,9)-(15,3))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,9)-(14,3))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((4,7)-(2,8))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((4,7)-(15,5))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,9)-(12,9))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,9)-(10,2))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((4,7)-(14,2))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,7)-(8,9))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,7)-(8,6))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((4,7)-(11,3))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((4,7)-(1,9))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((4,6)-(13,6))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,7)-(8,5))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,7)-(8,4))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((4,6)-(1,6))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,7)-(8,2))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((4,3)-(4,7))}<=((-99)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((4,1)-(8,8))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((4,1)-(10,9))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((3,4)-(13,6))}<=((-7)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,7)-(8,1))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,7)-(7,2))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,7)-(5,2))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,7)-(3,3))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,7)-(15,5))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((3,4)-(1,6))}<=((-7)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,7)-(13,1))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((3,1)-(8,8))}<=((-50)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((3,1)-(10,9))}<=((-50)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((2,6)-(10,9))}<=((-39)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((15,8)-(13,6))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((15,8)-(1,6))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,7)-(12,3))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,7)-(11,3))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,7)-(1,9))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((15,6)-(12,5))}<=((-77)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((15,3)-(5,3))}<=((-49)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((15,2)-(10,9))}<=((-29)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,7)-(1,4))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((14,7)-(12,5))}<=((-6)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((14,6)-(13,6))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((14,6)-(1,6))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((14,3)-(5,3))}<=((-23)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,6)-(9,1))}<=((-38)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,6)-(8,9))}<=((-38)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((13,8)-(13,6))}<=((-80)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,6)-(8,5))}<=((-38)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((13,8)-(12,5))}<=((-80)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,6)-(8,2))}<=((-38)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,6)-(8,1))}<=((-38)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,6)-(15,4))}<=((-38)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((13,6)-(9,5))}<=((-86)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((13,6)-(8,3))}<=((-86)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((13,6)-(7,1))}<=((-86)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((13,6)-(6,5))}<=((-86)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,6)-(14,9))}<=((-38)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,6)-(13,4))}<=((-38)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((13,6)-(13,9))}<=((-86)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,6)-(12,4))}<=((-38)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,6)-(11,8))}<=((-38)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((13,6)-(13,7))}<=((-86)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((13,6)-(13,2))}<=((-86)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((13,6)-(12,7))}<=((-86)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,6)-(10,7))}<=((-38)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,5)-(9,9))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((13,6)-(11,5))}<=((-86)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((13,6)-(10,8))}<=((-86)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((13,6)-(1,6))}<=((-86)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,5)-(8,9))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,5)-(8,2))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((13,5)-(13,6))}<=((-40)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((13,4)-(13,6))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,5)-(8,1))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((13,3)-(13,6))}<=((-56)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,5)-(15,9))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,5)-(14,5))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,5)-(13,3))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((13,1)-(4,7))}<=((-79)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,5)-(12,2))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((13,1)-(13,6))}<=((-79)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,9)-(5,3))}<=((-90)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,9)-(12,5))}<=((-90)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,7)-(1,6))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,5)-(9,3))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,5)-(8,4))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,5)-(7,4))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,5)-(6,1))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,5)-(5,6))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,5)-(3,2))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,5)-(2,4))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,5)-(12,8))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,5)-(12,7))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,5)-(11,4))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,5)-(12,6))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,5)-(10,3))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,5)-(1,1))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,4)-(9,3))}<=((-31)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,5)-(12,4))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,5)-(12,2))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,5)-(12,1))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,5)-(11,6))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,5)-(10,6))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,4)-(8,9))}<=((-31)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,4)-(8,6))}<=((-31)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,5)-(1,8))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,3)-(4,7))}<=((-77)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((12,3)-(12,5))}<=((-77)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((11,5)-(1,6))}<=((-18)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,4)-(8,5))}<=((-31)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,4)-(8,2))}<=((-31)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,4)-(8,1))}<=((-31)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,4)-(15,6))}<=((-31)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,4)-(14,7))}<=((-31)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((10,9)-(14,4))}<=((-53)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((10,9)-(13,9))}<=((-53)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((10,9)-(11,7))}<=((-53)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((10,9)-(10,5))}<=((-53)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((10,8)-(10,9))}<=((-24)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((10,8)-(1,6))}<=((-24)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,4)-(13,8))}<=((-31)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,4)-(11,6))}<=((-31)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((10,7)-(10,9))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,4)-(10,6))}<=((-31)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((10,6)-(10,9))}<=((-20)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,4)-(1,8))}<=((-31)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((10,4)-(10,9))}<=((-52)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,3)-(9,5))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,3)-(8,9))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,3)-(8,7))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((10,3)-(10,9))}<=((-50)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,3)-(8,6))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,3)-(8,5))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((10,2)-(5,3))}<=((-5)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((10,2)-(10,9))}<=((-5)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,3)-(8,4))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,3)-(8,2))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,3)-(8,1))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,3)-(5,5))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,3)-(4,6))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((10,1)-(10,9))}<=((-58)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((1,9)-(1,6))}<=((-26)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((1,8)-(1,6))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((1,7)-(8,8))}<=((-38)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((1,7)-(10,9))}<=((-38)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,3)-(3,4))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,3)-(2,1))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((1,7)-(1,6))}<=((-38)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((1,5)-(1,6))}<=((-30)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((1,4)-(1,6))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,3)-(15,8))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,3)-(14,6))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((1,3)-(1,6))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,3)-(12,7))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,3)-(11,5))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((1,2)-(1,6))}<=((-75)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,3)-(10,8))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_plus: &diff{((1,1)-(1,6))}<=((-8)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,3)-(1,3))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,2)-(9,7))}<=((-90)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,2)-(8,1))}<=((-90)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((8,2)-(10,1))}<=((-90)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,9)-(9,7))}<=((-37)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,9)-(8,2))}<=((-37)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,9)-(7,8))}<=((-37)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,9)-(7,7))}<=((-37)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,9)-(7,3))}<=((-37)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,9)-(7,2))}<=((-37)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,9)-(6,9))}<=((-37)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,9)-(5,1))}<=((-37)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,9)-(2,1))}<=((-37)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,9)-(14,8))}<=((-37)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,9)-(10,1))}<=((-37)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,9)-(1,4))}<=((-37)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,8)-(9,9))}<=((-75)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,8)-(8,5))}<=((-75)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,8)-(7,7))}<=((-75)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,8)-(7,2))}<=((-75)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,8)-(15,9))}<=((-75)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,8)-(14,5))}<=((-75)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,8)-(13,3))}<=((-75)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,8)-(12,2))}<=((-75)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,8)-(11,4))}<=((-75)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,8)-(10,3))}<=((-75)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,8)-(1,1))}<=((-75)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,7)-(9,2))}<=((-50)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,7)-(8,9))}<=((-50)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,7)-(15,3))}<=((-50)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,7)-(14,3))}<=((-50)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,7)-(12,9))}<=((-50)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,7)-(10,2))}<=((-50)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,5)-(9,6))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,5)-(7,9))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,5)-(7,8))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,5)-(7,7))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,5)-(7,4))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,5)-(7,3))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,5)-(7,2))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,5)-(7,1))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,5)-(6,3))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,5)-(5,9))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,5)-(4,9))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,5)-(3,9))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,5)-(2,2))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,5)-(15,1))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,5)-(13,5))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,5)-(12,6))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,5)-(11,1))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,5)-(10,4))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,5)-(1,1))}<=((-98)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,4)-(9,3))}<=((-90)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,4)-(8,4))}<=((-90)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,4)-(7,9))}<=((-90)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,4)-(7,8))}<=((-90)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,4)-(7,7))}<=((-90)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,4)-(7,3))}<=((-90)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,4)-(7,2))}<=((-90)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,4)-(2,4))}<=((-90)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,4)-(15,6))}<=((-90)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,4)-(14,7))}<=((-90)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,4)-(13,8))}<=((-90)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,4)-(11,6))}<=((-90)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,4)-(10,6))}<=((-90)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,4)-(1,8))}<=((-90)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,3)-(9,1))}<=((-65)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,3)-(8,6))}<=((-65)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,3)-(7,8))}<=((-65)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,3)-(7,7))}<=((-65)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,3)-(7,2))}<=((-65)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,3)-(15,4))}<=((-65)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,3)-(14,9))}<=((-65)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,3)-(13,4))}<=((-65)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,3)-(12,4))}<=((-65)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,3)-(11,8))}<=((-65)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,3)-(10,7))}<=((-65)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,2)-(7,7))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,2)-(5,2))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,2)-(3,3))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,2)-(13,1))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,2)-(12,3))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,2)-(11,3))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,2)-(1,9))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,2)-(1,4))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,1)-(9,5))}<=((-71)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,1)-(8,3))}<=((-71)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,1)-(7,9))}<=((-71)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,1)-(7,8))}<=((-71)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,1)-(7,7))}<=((-71)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,1)-(7,4))}<=((-71)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,1)-(7,3))}<=((-71)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,1)-(7,2))}<=((-71)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,1)-(5,5))}<=((-71)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,1)-(4,6))}<=((-71)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,1)-(3,4))}<=((-71)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,1)-(2,1))}<=((-71)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,1)-(15,8))}<=((-71)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,1)-(14,6))}<=((-71)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,1)-(12,7))}<=((-71)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,1)-(11,5))}<=((-71)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,1)-(10,8))}<=((-71)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((7,1)-(1,3))}<=((-71)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,9)-(9,7))}<=((-27)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,9)-(8,2))}<=((-27)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,9)-(6,8))}<=((-27)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,9)-(6,7))}<=((-27)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,9)-(6,6))}<=((-27)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,9)-(6,3))}<=((-27)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,9)-(5,1))}<=((-27)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,9)-(10,1))}<=((-27)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,9)-(1,4))}<=((-27)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,8)-(2,2))}<=((-45)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,8)-(1,2))}<=((-45)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,7)-(9,2))}<=((-99)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,7)-(8,9))}<=((-99)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,7)-(7,7))}<=((-99)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,7)-(6,8))}<=((-99)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,7)-(6,6))}<=((-99)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,7)-(6,3))}<=((-99)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,7)-(15,3))}<=((-99)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,7)-(14,3))}<=((-99)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,7)-(12,9))}<=((-99)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,7)-(10,2))}<=((-99)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,6)-(8,1))}<=((-69)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,6)-(6,8))}<=((-69)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(9,5))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(8,3))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(7,1))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(6,9))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(6,8))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(6,7))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(6,6))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(6,4))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(6,3))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(6,2))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(6,1))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(5,5))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(4,6))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(3,4))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(2,1))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(15,8))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(14,6))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(12,7))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(11,5))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(10,8))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,5)-(1,3))}<=((-63)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,4)-(9,9))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,4)-(8,5))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,4)-(7,8))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,4)-(6,9))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,4)-(6,8))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,4)-(6,7))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,4)-(6,6))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,4)-(6,3))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,4)-(15,9))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,4)-(14,5))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,4)-(13,3))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,4)-(12,2))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,4)-(11,4))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,4)-(10,3))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,4)-(1,1))}<=((-72)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,3)-(6,8))}<=((-59)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,3)-(6,6))}<=((-59)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,3)-(2,2))}<=((-59)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,3)-(13,5))}<=((-59)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,3)-(10,4))}<=((-59)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,2)-(9,1))}<=((-49)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,2)-(8,6))}<=((-49)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,2)-(7,3))}<=((-49)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,2)-(6,9))}<=((-49)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,2)-(6,8))}<=((-49)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,2)-(6,7))}<=((-49)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,2)-(6,6))}<=((-49)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,2)-(6,4))}<=((-49)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,2)-(6,3))}<=((-49)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,2)-(15,4))}<=((-49)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,2)-(14,9))}<=((-49)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,2)-(13,4))}<=((-49)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,2)-(12,4))}<=((-49)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,2)-(11,8))}<=((-49)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,2)-(10,7))}<=((-49)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,1)-(9,3))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,1)-(8,4))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,1)-(7,4))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,1)-(6,9))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,1)-(6,8))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,1)-(6,7))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,1)-(6,6))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,1)-(6,4))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,1)-(6,3))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,1)-(6,2))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,1)-(2,4))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,1)-(15,6))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,1)-(14,7))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,1)-(13,8))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,1)-(11,6))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,1)-(10,6))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((6,1)-(1,8))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,9)-(9,6))}<=((-69)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,9)-(6,3))}<=((-69)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,9)-(5,8))}<=((-69)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,9)-(5,7))}<=((-69)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,9)-(5,5))}<=((-69)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,9)-(5,4))}<=((-69)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,9)-(5,2))}<=((-69)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,9)-(5,1))}<=((-69)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,9)-(4,9))}<=((-69)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,9)-(3,9))}<=((-69)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,9)-(2,2))}<=((-69)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,9)-(15,1))}<=((-69)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,9)-(13,5))}<=((-69)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,9)-(11,1))}<=((-69)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,9)-(10,4))}<=((-69)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,8)-(9,9))}<=((-43)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,8)-(8,5))}<=((-43)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,8)-(7,8))}<=((-43)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,8)-(6,4))}<=((-43)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,8)-(5,7))}<=((-43)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,8)-(5,5))}<=((-43)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,8)-(5,2))}<=((-43)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,8)-(5,1))}<=((-43)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,8)-(15,9))}<=((-43)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,8)-(14,5))}<=((-43)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,8)-(13,3))}<=((-43)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,8)-(12,2))}<=((-43)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,8)-(11,4))}<=((-43)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,8)-(10,3))}<=((-43)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,8)-(1,1))}<=((-43)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,7)-(6,8))}<=((-12)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,7)-(5,2))}<=((-12)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,7)-(2,2))}<=((-12)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,7)-(1,2))}<=((-12)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,6)-(9,3))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,6)-(8,4))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,6)-(7,4))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,6)-(6,1))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,6)-(5,9))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,6)-(5,8))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,6)-(5,7))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,6)-(5,5))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,6)-(5,4))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,6)-(5,2))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,6)-(5,1))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,6)-(2,4))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,6)-(15,6))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,6)-(14,7))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,6)-(13,8))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,6)-(11,6))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,6)-(10,6))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,6)-(1,8))}<=((-74)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,5)-(5,7))}<=((-70)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,5)-(5,2))}<=((-70)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,5)-(5,1))}<=((-70)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,5)-(3,4))}<=((-70)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,5)-(2,1))}<=((-70)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,5)-(15,8))}<=((-70)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,5)-(14,6))}<=((-70)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,5)-(1,3))}<=((-70)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,4)-(9,1))}<=((-7)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,4)-(8,6))}<=((-7)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,4)-(7,3))}<=((-7)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,4)-(6,2))}<=((-7)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,4)-(5,8))}<=((-7)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,4)-(5,7))}<=((-7)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,4)-(5,5))}<=((-7)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,4)-(5,2))}<=((-7)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,4)-(5,1))}<=((-7)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,4)-(15,4))}<=((-7)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,4)-(14,9))}<=((-7)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,4)-(13,4))}<=((-7)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,4)-(12,4))}<=((-7)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,4)-(11,8))}<=((-7)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,4)-(10,7))}<=((-7)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,2)-(1,4))}<=((-34)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,1)-(9,7))}<=((-84)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,1)-(8,2))}<=((-84)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,1)-(5,7))}<=((-84)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,1)-(5,2))}<=((-84)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((5,1)-(10,1))}<=((-84)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,9)-(9,6))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,9)-(6,3))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,9)-(4,3))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,9)-(2,2))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,9)-(13,5))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,9)-(10,4))}<=((-11)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,8)-(9,2))}<=((-96)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,8)-(8,9))}<=((-96)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,8)-(7,7))}<=((-96)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,8)-(6,7))}<=((-96)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,8)-(4,9))}<=((-96)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,8)-(4,6))}<=((-96)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,8)-(4,3))}<=((-96)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,8)-(4,1))}<=((-96)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,8)-(15,3))}<=((-96)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,8)-(14,3))}<=((-96)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,8)-(12,9))}<=((-96)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,8)-(10,2))}<=((-96)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,6)-(5,5))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,6)-(4,9))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,6)-(4,3))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,6)-(4,1))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,6)-(3,4))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,6)-(2,1))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,6)-(15,8))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,6)-(14,6))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,6)-(1,3))}<=((-91)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,5)-(9,7))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,5)-(8,2))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,5)-(7,9))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,5)-(6,9))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,5)-(5,1))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,5)-(4,9))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,5)-(4,8))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,5)-(4,6))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,5)-(4,4))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,5)-(4,3))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,5)-(4,2))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,5)-(4,1))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,5)-(2,1))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,5)-(14,8))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,5)-(13,2))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,5)-(12,8))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,5)-(11,2))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,5)-(10,1))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,5)-(1,4))}<=((-68)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(9,9))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(9,9))}<=((-29)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(8,5))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(8,5))}<=((-29)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(7,8))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(7,8))}<=((-29)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(6,4))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(6,4))}<=((-29)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(5,8))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(5,8))}<=((-29)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(4,9))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(4,9))}<=((-29)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(4,8))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(4,8))}<=((-29)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(4,6))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(4,6))}<=((-29)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(4,5))}<=((-29)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(4,3))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(4,3))}<=((-29)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(4,2))}<=((-60)).
+Human is not able to generate a solution
+==========
+select a potential_minus: &diff{((4,4)-(4,2))}<=((-29)).
+Execution time was 1200 seconds.

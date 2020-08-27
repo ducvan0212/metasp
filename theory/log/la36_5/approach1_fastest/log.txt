@@ -1,0 +1,4 @@
+Done!\n
+Result in select_plus.lp, select_minus.lp, epsilon_plus.lp and epsilon_minus.lp
+Finishintime
+Execution time was 4 seconds.

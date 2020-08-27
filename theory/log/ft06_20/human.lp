@@ -1,0 +1,74 @@
+% assign(3,2,1).
+% assign(4,2,3).
+% executionTime(5,2,3).
+% executionTime(5,1,9).
+% assign(1,2,1).
+% executionTime(3,4,9).
+% assign(4,5,6).
+% assign(6,2,6).
+% assign(4,4,5).
+% executionTime(2,5,10).
+% executionTime(2,3,10).
+% bound(n). #const n=55.#include "encoding_human.lp".
+% executionTime(5,6,1).
+% assign(1,1,3).
+% assign(4,0,2).
+% assign(2,3,6).
+% assign(2,5,4).
+% executionTime(3,5,1).
+% executionTime(3,2,4).
+% assign(3,0,4).
+executionTime(1,5,3).
+assign(3,1,5).
+executionTime(6,5,4).
+executionTime(4,3,5).
+assign(1,3,4).
+executionTime(6,3,9).
+assign(2,0,5).
+assign(6,4,5).
+executionTime(4,4,3).
+assign(5,3,6).
+executionTime(6,1,3).
+assign(2,2,2).
+executionTime(2,6,4).
+executionTime(2,4,10).
+assign(6,3,2).
+assign(1,4,6).
+executionTime(2,2,5).
+executionTime(3,1,5).
+executionTime(4,6,9).
+assign(5,4,3).
+executionTime(3,6,7).
+assign(5,2,1).
+executionTime(5,3,5).
+executionTime(4,2,5).
+executionTime(1,4,7).
+executionTime(6,2,3).
+assign(5,5,4).
+assign(1,0,2).
+executionTime(4,1,5).
+assign(6,1,1).
+assign(3,3,2).
+assign(3,5,3).
+assign(2,4,3).
+assign(5,0,5).
+executionTime(3,3,8).
+executionTime(5,5,3).
+executionTime(6,4,10).
+assign(1,5,5).
+executionTime(1,1,1).
+executionTime(1,3,6).
+executionTime(1,6,6).
+executionTime(5,4,4).
+assign(4,3,4).
+executionTime(6,6,1).
+executionTime(2,1,8).
+assign(6,5,3).
+executionTime(4,5,8).
+executionTime(1,2,3).
+assign(3,4,6).
+assign(6,0,4).
+assign(5,1,2).
+assign(4,1,1).
+assign(2,1,1).
+assign(2,4,3). assign(3,1,1). assign(3,2,2). assign(3,3,3). executionTime(1,1,54). executionTime(1,2,34). executionTime(1,3,61). executionTime(1,4,2). executionTime(2,1,9). executionTime(2,2,15). executionTime(2,3,89). executionTime(2,4,70). executionTime(3,1,38). executionTime(3,2,19). executionTime(3,3,28). assign(3,4,4). assign(4,1,1). assign(4,2,3). 

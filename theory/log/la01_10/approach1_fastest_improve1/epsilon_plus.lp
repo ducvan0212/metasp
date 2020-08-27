@@ -1,0 +1,168 @@
+assign(1,4,3).
+assign(10,4,1).
+assign(2,0,1).
+assign(3,4,2).
+assign(7,2,4).
+assign(9,3,1).
+executionTime(10,2,79).
+executionTime(2,1,21).
+executionTime(6,4,92).
+executionTime(9,3,25).
+machine(1):-executionTime(1,1,21).
+machine(2):-executionTime(1,2,53).
+machine(3):-executionTime(1,3,95).
+machine(4):-executionTime(1,4,55).
+machine(5):-executionTime(1,5,34).
+seq((1,4),(1,1),55):-executionTime(1,4,55),executionTime(1,1,21),assign(1,4,3),assign(1,1,1),not seq((1,1),(1,4),21).
+seq((10,1),(7,2),77):-executionTime(10,1,77),executionTime(7,2,77),assign(10,1,4),assign(7,2,4),not seq((7,2),(10,1),77).
+seq((10,2),(1,4),79):-executionTime(10,2,79),executionTime(1,4,55),assign(10,2,3),assign(1,4,3),not seq((1,4),(10,2),55).
+seq((10,2),(2,4),79):-executionTime(10,2,79),executionTime(2,4,26),assign(10,2,3),assign(2,4,3),not seq((2,4),(10,2),26).
+seq((10,2),(3,1),79):-executionTime(10,2,79),executionTime(3,1,39),assign(10,2,3),assign(3,1,3),not seq((3,1),(10,2),39).
+seq((10,2),(4,4),79):-executionTime(10,2,79),executionTime(4,4,66),assign(10,2,3),assign(4,4,3),not seq((4,4),(10,2),66).
+seq((10,2),(5,2),79):-executionTime(10,2,79),executionTime(5,2,34),assign(10,2,3),assign(5,2,3),not seq((5,2),(10,2),34).
+seq((10,2),(6,4),79):-executionTime(10,2,79),executionTime(6,4,92),assign(10,2,3),assign(6,4,3),not seq((6,4),(10,2),92).
+seq((10,2),(7,1),79):-executionTime(10,2,79),executionTime(7,1,69),assign(10,2,3),assign(7,1,3),not seq((7,1),(10,2),69).
+seq((10,2),(8,1),79):-executionTime(10,2,79),executionTime(8,1,38),assign(10,2,3),assign(8,1,3),not seq((8,1),(10,2),38).
+seq((10,2),(9,4),79):-executionTime(10,2,79),executionTime(9,4,44),assign(10,2,3),assign(9,4,3),not seq((9,4),(10,2),44).
+seq((10,3),(10,2),43):-executionTime(10,3,43),executionTime(10,2,79),assign(10,3,2),assign(10,2,3),not seq((10,2),(10,3),79).
+seq((10,3),(3,4),43):-executionTime(10,3,43),executionTime(3,4,31),assign(10,3,2),assign(3,4,2),not seq((3,4),(10,3),31).
+seq((10,4),(1,1),75):-executionTime(10,4,75),executionTime(1,1,21),assign(10,4,1),assign(1,1,1),not seq((1,1),(10,4),21).
+seq((10,4),(3,3),75):-executionTime(10,4,75),executionTime(3,3,42),assign(10,4,1),assign(3,3,1),not seq((3,3),(10,4),42).
+seq((10,4),(4,1),75):-executionTime(10,4,75),executionTime(4,1,77),assign(10,4,1),assign(4,1,1),not seq((4,1),(10,4),77).
+seq((10,4),(6,1),75):-executionTime(10,4,75),executionTime(6,1,54),assign(10,4,1),assign(6,1,1),not seq((6,1),(10,4),54).
+seq((10,4),(7,3),75):-executionTime(10,4,75),executionTime(7,3,87),assign(10,4,1),assign(7,3,1),not seq((7,3),(10,4),87).
+seq((10,4),(8,2),75):-executionTime(10,4,75),executionTime(8,2,60),assign(10,4,1),assign(8,2,1),not seq((8,2),(10,4),60).
+seq((10,4),(9,3),75):-executionTime(10,4,75),executionTime(9,3,25),assign(10,4,1),assign(9,3,1),not seq((9,3),(10,4),25).
+seq((2,2),(2,1),52):-executionTime(2,2,52),executionTime(2,1,21),assign(2,2,4),assign(2,1,5),not seq((2,1),(2,2),21).
+seq((2,3),(2,1),16):-executionTime(2,3,16),executionTime(2,1,21),assign(2,3,2),assign(2,1,5),not seq((2,1),(2,3),21).
+seq((2,4),(1,4),26):-executionTime(2,4,26),executionTime(1,4,55),assign(2,4,3),assign(1,4,3),not seq((1,4),(2,4),55).
+seq((2,4),(2,1),26):-executionTime(2,4,26),executionTime(2,1,21),assign(2,4,3),assign(2,1,5),not seq((2,1),(2,4),21).
+seq((3,1),(1,4),39):-executionTime(3,1,39),executionTime(1,4,55),assign(3,1,3),assign(1,4,3),not seq((1,4),(3,1),55).
+seq((3,4),(2,3),31):-executionTime(3,4,31),executionTime(2,3,16),assign(3,4,2),assign(2,3,2),not seq((2,3),(3,4),16).
+seq((3,4),(3,3),31):-executionTime(3,4,31),executionTime(3,3,42),assign(3,4,2),assign(3,3,1),not seq((3,3),(3,4),42).
+seq((4,3),(2,1),79):-executionTime(4,3,79),executionTime(2,1,21),assign(4,3,5),assign(2,1,5),not seq((2,1),(4,3),21).
+seq((4,4),(1,4),66):-executionTime(4,4,66),executionTime(1,4,55),assign(4,4,3),assign(1,4,3),not seq((1,4),(4,4),55).
+seq((5,2),(1,4),34):-executionTime(5,2,34),executionTime(1,4,55),assign(5,2,3),assign(1,4,3),not seq((1,4),(5,2),55).
+seq((5,3),(3,4),64):-executionTime(5,3,64),executionTime(3,4,31),assign(5,3,2),assign(3,4,2),not seq((3,4),(5,3),31).
+seq((5,4),(2,1),19):-executionTime(5,4,19),executionTime(2,1,21),assign(5,4,5),assign(2,1,5),not seq((2,1),(5,4),21).
+seq((6,2),(3,4),43):-executionTime(6,2,43),executionTime(3,4,31),assign(6,2,2),assign(3,4,2),not seq((3,4),(6,2),31).
+seq((6,3),(2,1),79):-executionTime(6,3,79),executionTime(2,1,21),assign(6,3,5),assign(2,1,5),not seq((2,1),(6,3),21).
+seq((6,4),(1,4),92):-executionTime(6,4,92),executionTime(1,4,55),assign(6,4,3),assign(1,4,3),not seq((1,4),(6,4),55).
+seq((6,4),(2,4),92):-executionTime(6,4,92),executionTime(2,4,26),assign(6,4,3),assign(2,4,3),not seq((2,4),(6,4),26).
+seq((6,4),(3,1),92):-executionTime(6,4,92),executionTime(3,1,39),assign(6,4,3),assign(3,1,3),not seq((3,1),(6,4),39).
+seq((6,4),(4,4),92):-executionTime(6,4,92),executionTime(4,4,66),assign(6,4,3),assign(4,4,3),not seq((4,4),(6,4),66).
+seq((6,4),(5,2),92):-executionTime(6,4,92),executionTime(5,2,34),assign(6,4,3),assign(5,2,3),not seq((5,2),(6,4),34).
+seq((6,4),(6,1),92):-executionTime(6,4,92),executionTime(6,1,54),assign(6,4,3),assign(6,1,1),not seq((6,1),(6,4),54).
+seq((6,4),(6,2),92):-executionTime(6,4,92),executionTime(6,2,43),assign(6,4,3),assign(6,2,2),not seq((6,2),(6,4),43).
+seq((7,1),(1,4),69):-executionTime(7,1,69),executionTime(1,4,55),assign(7,1,3),assign(1,4,3),not seq((1,4),(7,1),55).
+seq((7,1),(6,4),69):-executionTime(7,1,69),executionTime(6,4,92),assign(7,1,3),assign(6,4,3),not seq((6,4),(7,1),92).
+seq((7,2),(1,3),77):-executionTime(7,2,77),executionTime(1,3,95),assign(7,2,4),assign(1,3,4),not seq((1,3),(7,2),95).
+seq((7,2),(2,2),77):-executionTime(7,2,77),executionTime(2,2,52),assign(7,2,4),assign(2,2,4),not seq((2,2),(7,2),52).
+seq((7,2),(3,2),77):-executionTime(7,2,77),executionTime(3,2,98),assign(7,2,4),assign(3,2,4),not seq((3,2),(7,2),98).
+seq((7,2),(4,2),77):-executionTime(7,2,77),executionTime(4,2,55),assign(7,2,4),assign(4,2,4),not seq((4,2),(7,2),55).
+seq((7,2),(5,1),77):-executionTime(7,2,77),executionTime(5,1,83),assign(7,2,4),assign(5,1,4),not seq((5,1),(7,2),83).
+seq((7,2),(7,1),77):-executionTime(7,2,77),executionTime(7,1,69),assign(7,2,4),assign(7,1,3),not seq((7,1),(7,2),69).
+seq((7,4),(3,4),87):-executionTime(7,4,87),executionTime(3,4,31),assign(7,4,2),assign(3,4,2),not seq((3,4),(7,4),31).
+seq((8,1),(1,4),38):-executionTime(8,1,38),executionTime(1,4,55),assign(8,1,3),assign(1,4,3),not seq((1,4),(8,1),55).
+seq((8,1),(6,4),38):-executionTime(8,1,38),executionTime(6,4,92),assign(8,1,3),assign(6,4,3),not seq((6,4),(8,1),92).
+seq((8,3),(7,2),41):-executionTime(8,3,41),executionTime(7,2,77),assign(8,3,4),assign(7,2,4),not seq((7,2),(8,3),77).
+seq((8,4),(2,1),24):-executionTime(8,4,24),executionTime(2,1,21),assign(8,4,5),assign(2,1,5),not seq((2,1),(8,4),21).
+seq((9,1),(3,4),17):-executionTime(9,1,17),executionTime(3,4,31),assign(9,1,2),assign(3,4,2),not seq((3,4),(9,1),31).
+seq((9,2),(2,1),49):-executionTime(9,2,49),executionTime(2,1,21),assign(9,2,5),assign(2,1,5),not seq((2,1),(9,2),21).
+seq((9,3),(1,1),25):-executionTime(9,3,25),executionTime(1,1,21),assign(9,3,1),assign(1,1,1),not seq((1,1),(9,3),21).
+seq((9,3),(3,3),25):-executionTime(9,3,25),executionTime(3,3,42),assign(9,3,1),assign(3,3,1),not seq((3,3),(9,3),42).
+seq((9,3),(4,1),25):-executionTime(9,3,25),executionTime(4,1,77),assign(9,3,1),assign(4,1,1),not seq((4,1),(9,3),77).
+seq((9,3),(6,1),25):-executionTime(9,3,25),executionTime(6,1,54),assign(9,3,1),assign(6,1,1),not seq((6,1),(9,3),54).
+seq((9,3),(7,3),25):-executionTime(9,3,25),executionTime(7,3,87),assign(9,3,1),assign(7,3,1),not seq((7,3),(9,3),87).
+seq((9,3),(8,2),25):-executionTime(9,3,25),executionTime(8,2,60),assign(9,3,1),assign(8,2,1),not seq((8,2),(9,3),60).
+seq((9,4),(1,4),44):-executionTime(9,4,44),executionTime(1,4,55),assign(9,4,3),assign(1,4,3),not seq((1,4),(9,4),55).
+seq((9,4),(6,4),44):-executionTime(9,4,44),executionTime(6,4,92),assign(9,4,3),assign(6,4,3),not seq((6,4),(9,4),92).
+seq((9,4),(9,3),44):-executionTime(9,4,44),executionTime(9,3,25),assign(9,4,3),assign(9,3,1),not seq((9,3),(9,4),25).
+task(1):-executionTime(1,1,21).
+task(10):-executionTime(10,1,77).
+task(2):-executionTime(2,1,21).
+task(4):-executionTime(4,1,77).
+task(5):-executionTime(5,1,83).
+task(6):-executionTime(6,1,54).
+task(7):-executionTime(7,1,69).
+task(8):-executionTime(8,1,38).
+task(9):-executionTime(9,1,17).
+{seq((1,1),(1,4),21)}:-executionTime(1,4,55),executionTime(1,1,21),assign(1,4,3),assign(1,1,1).
+{seq((1,1),(10,4),21)}:-executionTime(10,4,75),executionTime(1,1,21),assign(10,4,1),assign(1,1,1).
+{seq((1,1),(9,3),21)}:-executionTime(9,3,25),executionTime(1,1,21),assign(9,3,1),assign(1,1,1).
+{seq((1,2),(1,4),53)}:-executionTime(1,4,55),executionTime(1,2,53),assign(1,4,3),assign(1,2,5).
+{seq((1,2),(2,1),53)}:-executionTime(2,1,21),executionTime(1,2,53),assign(2,1,5),assign(1,2,5).
+{seq((1,3),(1,4),95)}:-executionTime(1,4,55),executionTime(1,3,95),assign(1,4,3),assign(1,3,4).
+{seq((1,3),(7,2),95)}:-executionTime(7,2,77),executionTime(1,3,95),assign(7,2,4),assign(1,3,4).
+{seq((1,4),(10,2),55)}:-executionTime(10,2,79),executionTime(1,4,55),assign(10,2,3),assign(1,4,3).
+{seq((1,4),(2,4),55)}:-executionTime(2,4,26),executionTime(1,4,55),assign(2,4,3),assign(1,4,3).
+{seq((1,4),(3,1),55)}:-executionTime(3,1,39),executionTime(1,4,55),assign(3,1,3),assign(1,4,3).
+{seq((1,4),(4,4),55)}:-executionTime(4,4,66),executionTime(1,4,55),assign(4,4,3),assign(1,4,3).
+{seq((1,4),(5,2),55)}:-executionTime(5,2,34),executionTime(1,4,55),assign(5,2,3),assign(1,4,3).
+{seq((1,4),(6,4),55)}:-executionTime(6,4,92),executionTime(1,4,55),assign(6,4,3),assign(1,4,3).
+{seq((1,4),(7,1),55)}:-executionTime(7,1,69),executionTime(1,4,55),assign(7,1,3),assign(1,4,3).
+{seq((1,4),(8,1),55)}:-executionTime(8,1,38),executionTime(1,4,55),assign(8,1,3),assign(1,4,3).
+{seq((1,4),(9,4),55)}:-executionTime(9,4,44),executionTime(1,4,55),assign(9,4,3),assign(1,4,3).
+{seq((10,1),(10,2),77)}:-executionTime(10,2,79),executionTime(10,1,77),assign(10,2,3),assign(10,1,4).
+{seq((10,1),(10,4),77)}:-executionTime(10,4,75),executionTime(10,1,77),assign(10,4,1),assign(10,1,4).
+{seq((10,2),(10,3),79)}:-executionTime(10,3,43),executionTime(10,2,79),assign(10,3,2),assign(10,2,3).
+{seq((10,2),(10,4),79)}:-executionTime(10,4,75),executionTime(10,2,79),assign(10,4,1),assign(10,2,3).
+{seq((10,3),(10,4),43)}:-executionTime(10,4,75),executionTime(10,3,43),assign(10,4,1),assign(10,3,2).
+{seq((2,1),(2,2),21)}:-executionTime(2,2,52),executionTime(2,1,21),assign(2,2,4),assign(2,1,5).
+{seq((2,1),(2,3),21)}:-executionTime(2,3,16),executionTime(2,1,21),assign(2,3,2),assign(2,1,5).
+{seq((2,1),(2,4),21)}:-executionTime(2,4,26),executionTime(2,1,21),assign(2,4,3),assign(2,1,5).
+{seq((2,1),(4,3),21)}:-executionTime(4,3,79),executionTime(2,1,21),assign(4,3,5),assign(2,1,5).
+{seq((2,1),(5,4),21)}:-executionTime(5,4,19),executionTime(2,1,21),assign(5,4,5),assign(2,1,5).
+{seq((2,1),(6,3),21)}:-executionTime(6,3,79),executionTime(2,1,21),assign(6,3,5),assign(2,1,5).
+{seq((2,1),(8,4),21)}:-executionTime(8,4,24),executionTime(2,1,21),assign(8,4,5),assign(2,1,5).
+{seq((2,1),(9,2),21)}:-executionTime(9,2,49),executionTime(2,1,21),assign(9,2,5),assign(2,1,5).
+{seq((2,2),(7,2),52)}:-executionTime(7,2,77),executionTime(2,2,52),assign(7,2,4),assign(2,2,4).
+{seq((2,3),(3,4),16)}:-executionTime(3,4,31),executionTime(2,3,16),assign(3,4,2),assign(2,3,2).
+{seq((2,4),(10,2),26)}:-executionTime(10,2,79),executionTime(2,4,26),assign(10,2,3),assign(2,4,3).
+{seq((2,4),(6,4),26)}:-executionTime(6,4,92),executionTime(2,4,26),assign(6,4,3),assign(2,4,3).
+{seq((3,1),(10,2),39)}:-executionTime(10,2,79),executionTime(3,1,39),assign(10,2,3),assign(3,1,3).
+{seq((3,1),(3,4),39)}:-executionTime(3,4,31),executionTime(3,1,39),assign(3,4,2),assign(3,1,3).
+{seq((3,1),(6,4),39)}:-executionTime(6,4,92),executionTime(3,1,39),assign(6,4,3),assign(3,1,3).
+{seq((3,2),(3,4),98)}:-executionTime(3,4,31),executionTime(3,2,98),assign(3,4,2),assign(3,2,4).
+{seq((3,2),(7,2),98)}:-executionTime(7,2,77),executionTime(3,2,98),assign(7,2,4),assign(3,2,4).
+{seq((3,3),(10,4),42)}:-executionTime(10,4,75),executionTime(3,3,42),assign(10,4,1),assign(3,3,1).
+{seq((3,3),(3,4),42)}:-executionTime(3,4,31),executionTime(3,3,42),assign(3,4,2),assign(3,3,1).
+{seq((3,3),(9,3),42)}:-executionTime(9,3,25),executionTime(3,3,42),assign(9,3,1),assign(3,3,1).
+{seq((3,4),(10,3),31)}:-executionTime(10,3,43),executionTime(3,4,31),assign(10,3,2),assign(3,4,2).
+{seq((3,4),(5,3),31)}:-executionTime(5,3,64),executionTime(3,4,31),assign(5,3,2),assign(3,4,2).
+{seq((3,4),(6,2),31)}:-executionTime(6,2,43),executionTime(3,4,31),assign(6,2,2),assign(3,4,2).
+{seq((3,4),(7,4),31)}:-executionTime(7,4,87),executionTime(3,4,31),assign(7,4,2),assign(3,4,2).
+{seq((3,4),(9,1),31)}:-executionTime(9,1,17),executionTime(3,4,31),assign(9,1,2),assign(3,4,2).
+{seq((4,1),(10,4),77)}:-executionTime(10,4,75),executionTime(4,1,77),assign(10,4,1),assign(4,1,1).
+{seq((4,1),(9,3),77)}:-executionTime(9,3,25),executionTime(4,1,77),assign(9,3,1),assign(4,1,1).
+{seq((4,2),(7,2),55)}:-executionTime(7,2,77),executionTime(4,2,55),assign(7,2,4),assign(4,2,4).
+{seq((4,4),(10,2),66)}:-executionTime(10,2,79),executionTime(4,4,66),assign(10,2,3),assign(4,4,3).
+{seq((4,4),(6,4),66)}:-executionTime(6,4,92),executionTime(4,4,66),assign(6,4,3),assign(4,4,3).
+{seq((5,1),(7,2),83)}:-executionTime(7,2,77),executionTime(5,1,83),assign(7,2,4),assign(5,1,4).
+{seq((5,2),(10,2),34)}:-executionTime(10,2,79),executionTime(5,2,34),assign(10,2,3),assign(5,2,3).
+{seq((5,2),(6,4),34)}:-executionTime(6,4,92),executionTime(5,2,34),assign(6,4,3),assign(5,2,3).
+{seq((6,1),(10,4),54)}:-executionTime(10,4,75),executionTime(6,1,54),assign(10,4,1),assign(6,1,1).
+{seq((6,1),(6,4),54)}:-executionTime(6,4,92),executionTime(6,1,54),assign(6,4,3),assign(6,1,1).
+{seq((6,1),(9,3),54)}:-executionTime(9,3,25),executionTime(6,1,54),assign(9,3,1),assign(6,1,1).
+{seq((6,2),(6,4),43)}:-executionTime(6,4,92),executionTime(6,2,43),assign(6,4,3),assign(6,2,2).
+{seq((6,3),(6,4),79)}:-executionTime(6,4,92),executionTime(6,3,79),assign(6,4,3),assign(6,3,5).
+{seq((6,4),(10,2),92)}:-executionTime(10,2,79),executionTime(6,4,92),assign(10,2,3),assign(6,4,3).
+{seq((6,4),(7,1),92)}:-executionTime(7,1,69),executionTime(6,4,92),assign(7,1,3),assign(6,4,3).
+{seq((6,4),(8,1),92)}:-executionTime(8,1,38),executionTime(6,4,92),assign(8,1,3),assign(6,4,3).
+{seq((6,4),(9,4),92)}:-executionTime(9,4,44),executionTime(6,4,92),assign(9,4,3),assign(6,4,3).
+{seq((7,1),(10,2),69)}:-executionTime(10,2,79),executionTime(7,1,69),assign(10,2,3),assign(7,1,3).
+{seq((7,1),(7,2),69)}:-executionTime(7,2,77),executionTime(7,1,69),assign(7,2,4),assign(7,1,3).
+{seq((7,2),(10,1),77)}:-executionTime(10,1,77),executionTime(7,2,77),assign(10,1,4),assign(7,2,4).
+{seq((7,2),(7,3),77)}:-executionTime(7,3,87),executionTime(7,2,77),assign(7,3,1),assign(7,2,4).
+{seq((7,2),(7,4),77)}:-executionTime(7,4,87),executionTime(7,2,77),assign(7,4,2),assign(7,2,4).
+{seq((7,2),(8,3),77)}:-executionTime(8,3,41),executionTime(7,2,77),assign(8,3,4),assign(7,2,4).
+{seq((7,3),(10,4),87)}:-executionTime(10,4,75),executionTime(7,3,87),assign(10,4,1),assign(7,3,1).
+{seq((7,3),(9,3),87)}:-executionTime(9,3,25),executionTime(7,3,87),assign(9,3,1),assign(7,3,1).
+{seq((8,1),(10,2),38)}:-executionTime(10,2,79),executionTime(8,1,38),assign(10,2,3),assign(8,1,3).
+{seq((8,2),(10,4),60)}:-executionTime(10,4,75),executionTime(8,2,60),assign(10,4,1),assign(8,2,1).
+{seq((8,2),(9,3),60)}:-executionTime(9,3,25),executionTime(8,2,60),assign(9,3,1),assign(8,2,1).
+{seq((9,1),(9,3),17)}:-executionTime(9,3,25),executionTime(9,1,17),assign(9,3,1),assign(9,1,2).
+{seq((9,2),(9,3),49)}:-executionTime(9,3,25),executionTime(9,2,49),assign(9,3,1),assign(9,2,5).
+{seq((9,3),(10,4),25)}:-executionTime(10,4,75),executionTime(9,3,25),assign(10,4,1),assign(9,3,1).
+{seq((9,3),(9,4),25)}:-executionTime(9,4,44),executionTime(9,3,25),assign(9,4,3),assign(9,3,1).
+{seq((9,4),(10,2),44)}:-executionTime(10,2,79),executionTime(9,4,44),assign(10,2,3),assign(9,4,3).

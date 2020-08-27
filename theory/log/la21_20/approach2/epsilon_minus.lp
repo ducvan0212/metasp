@@ -1,0 +1,14 @@
+assign(2,4,3).
+assign(3,2,2).
+assign(4,1,1).
+assign(4,2,3).
+executionTime(1,1,54).
+executionTime(1,2,34).
+executionTime(1,4,2).
+executionTime(2,1,9).
+executionTime(2,2,15).
+executionTime(2,3,89).
+executionTime(2,4,70).
+executionTime(3,1,38).
+executionTime(3,2,19).
+executionTime(3,3,28).

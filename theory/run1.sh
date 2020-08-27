@@ -19,8 +19,22 @@ grep -v \&diff defH.lp > bot_defH.lp
 grep -v \&diff defR.lp > bot_defR.lp
 
 # top program
-grep '\&diff*' defH.lp > top_defH.lp
-grep '\&diff*' defR.lp > top_defR.lp
+grep '\&diff*' defH.lp | \
+awk '{
+	gsub(/\#p\_/, "", $0)
+	gsub(/\#p/, "p", $0)
+	gsub(/\#b/, "", $0)
+	print $0
+}' > top_defH.lp
+
+grep '\&diff*' defR.lp | \
+awk '{
+	gsub(/\#p\_/, "", $0)
+	gsub(/\#p/, "p", $0)
+	gsub(/\#b/, "", $0)
+	print $0	
+}' > top_defR.lp
+
 
 awk '{
 	if (sub(/:-[^\.]+/, "", $0))

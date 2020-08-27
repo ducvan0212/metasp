@@ -1,0 +1,15 @@
+select a potential_plus: &diff{((10,2)-(6,4))}<=((-79)).
+Unresolved: dl((6,1),486). dl((5,3),486). dl((6,2),443).
+==========
+select a potential_minus: &diff{((10,3)-(10,4))}<=((-43)).
+Unresolved: dl((6,1),486). dl((5,3),486). dl((6,2),443).
+==========
+select a potential_minus: &diff{((4,3)-(4,4))}<=((-79)).
+Unresolved: dl((6,1),486). dl((5,3),486). dl((6,2),443).
+==========
+select a potential_plus: &diff{((6,4)-(6,2))}<=((-92)).
+Found set of rules in top that satisfy query
+==========
+Done!\n
+Result in select_plus.lp, epsilon_plus.lp and epsilon_minus.lp
+Execution time was 1 seconds.

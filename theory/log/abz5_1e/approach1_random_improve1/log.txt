@@ -1,0 +1,6 @@
+select a potential_plus: &diff{((7,3)-(5,8))}<=((-97)).
+Found set of rules in top that satisfy query
+==========
+Done!\n
+Result in select_plus.lp, select_minus.lp, epsilon_plus.lp and epsilon_minus.lp
+Execution time was 1 seconds.
