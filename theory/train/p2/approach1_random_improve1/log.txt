@@ -1,0 +1,4 @@
+Something wrong
+Done!\n
+Result in select_plus.lp, select_minus.lp, epsilon_plus.lp and epsilon_minus.lp
+Execution time was 0 seconds.

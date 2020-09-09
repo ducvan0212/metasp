@@ -135,27 +135,73 @@
 % % Display 
 % #show move/3.
 
+
+
+
+
+
+
+
+%strict atom: &diff{a-b} <= k iff a-b <= k
+%non-strict atom: &diff{a-b} <= k => a-b <= k
+
+% &diff{b-0} <= 3.
+% % &diff{0-b} <= -3.
+% 
+% %m :- &diff{b-0} <= 2.
+% %&diff{b-0} <= 3.
+% 
+% 
 % &diff{a-0} <= 5 :- ok(1). {ok(1)}.
-% &diff{a-b} <= 2 :- ok(2). {ok(2)}.
+% &diff{0-a} <= -5 :- ok(2). {ok(2)}.
+% &diff{a-b} <= 2 :- ok(3). {ok(3)}.
+% 
+% 
 % :- not &diff{b-0} <= 3.
 % :- not &diff{0-b} <= -3.
+% 
+% &diff{b-0} <= 3 :- 1 = -1.
+% &diff{0-b} <= -3 :- 1 = -1.
+% 
+% 
+% $ clingo-dl test.txt --text
+% &__diff_h{(0-b)}<=((-3)).
+% &__diff_h{(b-0)}<=(3).
+% {ok(3)}.
+% &__diff_h{(a-b)}<=(2):-ok(3).
+% {ok(2)}.
+% &__diff_h{(0-a)}<=((-5)):-ok(2).
+% {ok(1)}.
+% &__diff_h{(a-0)}<=(5):-ok(1).
+
+
+
 % #minimize {X: ok(X)}.
+
+
+
+
+
 
 
 % planning with durative action
 %  planning with actions with duration 
 % numerical planning
 
-&diff{a-0}<=3 :- ok(1). 
-{ ok(1) }.
-&diff{0-a}<= -3 :- ok(2). 
-{ ok(2) }.
-&diff{a-c}<=1 :- ok(3). 
-{ ok(3) }.
-&diff{b-0}<=4 :- ok(4). 
-{ ok(4) }.
-&diff{c-0} <= 2.
-&diff{0-c} <= -2.
-#minimize{ X: ok(X) }.
+% &diff{a-0}<=3 :- ok(1). 
+% { ok(1) }.
+% &diff{0-a}<= -3 :- ok(2). 
+% { ok(2) }.
+% &diff{a-c}<=1 :- ok(3). 
+% { ok(3) }.
+% &diff{b-0}<=4 :- ok(4). 
+% { ok(4) }.
+% &diff{c-0} <= 2.
+% &diff{0-c} <= -2.
+% #minimize{ X: ok(X) }.
+% 
+% %&diff{a-0}<=3. &diff{a-c}<=1. &diff{b-0}<=4. &diff{0-a}<= -3.
 
-%&diff{a-0}<=3. &diff{a-c}<=1. &diff{b-0}<=4. &diff{0-a}<= -3.
+% a.b.
+% cost(X):-X=#sum{a: &diff{a-0}<=3; 2: b}.
+

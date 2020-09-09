@@ -25,6 +25,7 @@ start(V-2) :- rush_hour(V).
 % train t1 moves before t2 at least 5
 % &diff { (t1,a) - (t2,a) } <= -5.
 
-:- train(t1).
-{a}.
-&diff { (t1,a) - (t2,a) } <= -5 :- a.
+%:- train(t1).
+{ wake_up_early }.
+big_breakfast :- wake_up_early.
+to_go_coffee :- not wake_up_early.

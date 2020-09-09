@@ -17,7 +17,7 @@ def main():
             for machine_count, exetime in enumerate(job):
                 if machine_count % 2 == 1:
                     fwrite.write("executionTime({},{},{}).\n".format(job_count+1, math.floor(machine_count/2)+1, exetime))
-                    fwrite.write("assign({},{},{}).\n".format(job_count+1, job[machine_count-1], math.floor(machine_count/2)+1))
+                    fwrite.write("assign({},{},{}).\n".format(job_count+1, math.floor(machine_count/2)+1, job[machine_count-1]))
     
     # 6x6
     if "ft06.txt" in sys.argv[1]:

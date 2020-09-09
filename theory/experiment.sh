@@ -25,7 +25,7 @@ timebound=20
 
 for f in $1/*;
 do
-    if [[ "$f" == "task_assignment/1"  || -f "$f" ]]; 
+    if [[ "$f" == "task_assignment/1"  || -f "$f" || "$f" == "train/1" || "$f" == "train/2" || "$f" == "train/encodings" ]]; 
     then
         continue;
     fi

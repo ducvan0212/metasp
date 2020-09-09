@@ -1,2 +1,2 @@
 
-&diff{((30,11)-(12,8))}<=((-54)).
+&diff{((crossTogether(william,averell),4)-(takeLamp(jack),5))}<=((-10)).

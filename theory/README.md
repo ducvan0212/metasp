@@ -4,20 +4,20 @@ conda enviroment:
 - clingo-dl 1.1.0
 - coreutils
 
-### Approach 1 using sort:
+### Approach 1 using random:
 
 The last argument is runtime limit
 
 ```
-./approach1_sort.sh human_simple.lp robot_simple.lp 20
+./approach1_random.sh human_simple.lp robot_simple.lp 20
 ```
 
-Replace _sort_ by _random_ or _fastest_ to run others selection strategy.
+Replace _random_ by _random_ or _fastest_ to run others selection strategy.
 
 ### Improved version of approach 1:
 
 ```
-./approach1_sort_improved1.sh human_simple.lp robot_simple.lp 20
+./approach1_random_improved1.sh human_simple.lp robot_simple.lp 20
 ```
 
 *remove_constraint/1* and *remove_rule/1* can be found in *ok_resolved_underscore_defH.lp*
@@ -25,7 +25,7 @@ Replace _sort_ by _random_ or _fastest_ to run others selection strategy.
 ### Approach 2:
 
 ```
-./approach1_sort_improved2.sh human_simple.lp robot_simple.lp 20
+./approach1_random_improved2.sh human_simple.lp robot_simple.lp 20
 ```
 
 ### Run all experiments
@@ -80,3 +80,6 @@ convert_all.sh
 generate2.sh 
 ```
 
+### For only supporting rules in the robot
+
+The set of supporting rules in the robot is in file top_defR_wrtI.lp and supporting_rules.lp. 

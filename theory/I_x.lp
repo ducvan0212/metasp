@@ -1,1 +1,1 @@
-UNKNOWN
+step(1). step(2). step(3). step(4). step(5). step(6). step(7). person(averell). person(jack). person(joe). person(william). walk(averell,10). walk(jack,2). walk(joe,1). walk(william,5). hasLamp(joe). keep(1). keep(5). keep(7). keep(9). add(2). add(3). add(4). add(6). add(36). add(37). add(38). add(39). add(40). total_cost(0). occ(joe,1). occ(joe,2). occ(joe,3). occ(joe,4). occ(joe,5). occ(joe,6). occ(joe,7). total_cost(7). cost(william,5). cost(joe,1). cost(jack,2). cost(averell,10).
